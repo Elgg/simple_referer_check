@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin_manifest>
-	<field key="author" value="Brett Profitt" />
-	<field key="version" value="0.1" />
-	<field key="description" value="Lets you check a referrer for actions." />
-	<field key="website" value="http://www.elgg.org/" />
-	<field key="copyright" value="(C) Brett Profitt" />
-	<field key="licence" value="GNU Public License version 2" />
-	<field key="elgg_version" value="2010071002" />
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Referrer Check</name>
+	<author>Brett Profitt</author>
+	<version>0.2</version>
+	<category>spam</category>
+	<description>Lets you check a referrer for actions.</description>
+	<website>http://www.elgg.org/</website>
+	<copyright>(C) Brett Profitt</copyright>
+	<license>GNU Public License version 2</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
 </plugin_manifest>
